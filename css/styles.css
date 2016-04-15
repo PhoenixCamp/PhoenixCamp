@@ -20,6 +20,11 @@ p {
 	margin-top: 10%;
 }
 
+p a {
+	color: white;
+	border-bottom: 1px dotted white;
+	text-decoration: none;
+}
 
 p.name {
   color: white;
