@@ -17,7 +17,7 @@ p {
 .body {
 	text-align: center;
 	display: block;
-	margin-top: 10%;
+	margin-top: 1%;
 }
 
 p a {
@@ -67,7 +67,7 @@ p.coc {
 }
  
 #logo {
-	width: 260px;
+	width: 200px;
 	height: auto;
 	margin: 0 auto;
 	padding: 1em;
@@ -125,4 +125,84 @@ h2 a {
 	font-weight: bold;
 	color: white;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+
+
+
+
+/* BLOCKS */
+
+#blocks {
+	margin-top: 1em;
+	clear: both;
+}
+
+#blocks p {
+	color: #fff;
+	font-size: .95rem;
+}
+
+#blocks a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+
+h4,
+h4 a {
+	color: #FFF;
+  font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+#register p,
+#register a {
+	color: #FFF;
+	font-size: .85rem;
+}
+
+#register a {
+	border-bottom: 1px dotted #fff;	
+}
+
+/* BLOCKS - Newsletter */
+
+.block {
+	width: 440px;
+	margin: 2em auto 1em;
+  background: rgba(15, 15, 15, 0.5);
+	border: 1px solid gray;
+	padding: 1em;
+}
+
+
+.block h2 {
+	color: teal;
+  font: normal .85rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+#newsletter {
+	padding-bottom: 0;
+}
+
+#community h4 {
+	text-align: center;
+}
+
+#community p {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	text-align: center;
+}
+
+h4.block-title {
+	color: white;
+	font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+	padding-left: .5em;
+	text-align: center;
 }
