@@ -133,6 +133,22 @@ h2 a {
 
 
 
+.row.white {
+	background-color: white;
+	padding: 1.5em;
+}
+
+.row.white p,
+.row.white a {
+  color: #F15523;
+  font-size: .95rem;
+	text-align: center;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
 
 
 

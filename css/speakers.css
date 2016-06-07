@@ -1,0 +1,105 @@
+
+
+/* SPEAKER */
+
+.speakers h2 {
+	font-weight: bold;
+	color: white;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.speakers {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+	vertical-align: top;
+
+}
+
+.speaker {
+	border: 1px solid white;
+	width: 400px;
+	display: inline-block;
+	margin-right: .5rem;
+	margin-left: .5rem;
+	vertical-align: top;
+	margin-bottom: 1rem;
+	text-align: left;
+	background-color: white;
+}
+
+.speaker .photo {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+}
+
+
+.speaker .photo img {
+	width: 100%;
+	height: auto;
+	border-right: 1px solid silver;
+}
+
+.speaker .details {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding: .5rem .25rem;
+	width: 240px;
+}
+
+.speaker p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.speaker p.name {
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-bottom: .25rem;
+}
+
+.speaker p.org {
+	font-size: .9rem;
+	margin-bottom: .5rem;
+}
+
+.speaker p.role {
+	font-size: .75rem;
+	font-style: italic;
+}
+
+.speaker .links {
+	padding-top: .5em;
+}
+
+.speaker .links a {
+	color: white;
+  padding-right: .25em;
+  padding-left: .25em;
+}
+
+
+.speaker.elixir p,
+.speaker.elixir a {
+	color: #4e2a8e;
+}
+
+.speaker.phoenix p,
+.speaker.phoenix a {
+	color: #F15523;
+}
+
+.speaker.erlang p,
+.speaker.erlang a {
+	color: #9A0000;
+}
+
+.speaker.nerves p,
+.speaker.nerves a {
+	color: #676961;
+}
+
+
+
