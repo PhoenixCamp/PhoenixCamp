@@ -1,0 +1,74 @@
+/* Phoenix Camp */
+
+.tabs {
+  width: 100%;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+}
+
+.tabs a:hover p {
+  opacity: 1.0; 	
+}
+
+.tab {
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding: .5rem 0 0.5rem;
+	margin-right: -4px;
+}
+
+.tab p {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	opacity: .8;
+	font: bold .6rem/1rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+}
+
+.tab.active p {
+	opacity: .95;
+	font-weight: bold;
+	color: white;
+}
+
+.tab .camp-name {
+	font-size: .75rem
+}
+
+.tab .camp-date {
+	font-size: .6rem;	
+}
+
+.tab.erlang {
+	background-color: #9A0000;
+}
+
+.tab.elixir {
+	background-color: #4e2a8e;
+}
+
+.tab.phoenix {
+	background-color: #F15523;	
+}
+
+.tab.nerves {
+	background-color: #676961;	
+}
+
+@media only screen and (min-width: 768px) {
+
+	.tab .camp-name {
+		font-size: .85rem;
+		line-height: 1.2rem;
+	}
+	
+	.tab .camp-dates {
+		font-size: .75rem;	
+	}
+
+}

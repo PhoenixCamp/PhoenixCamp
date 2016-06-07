@@ -2,8 +2,10 @@
 
 body {
 	margin: 0;
-	padding: 1em;
+	padding: 0;
 	background-color: #F15523;
+	font-size: 14px;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 	
 
@@ -14,10 +16,11 @@ p {
 	 font-size: 1.25em;
 }
 
-.body {
+.page {
 	text-align: center;
 	display: block;
-	margin-top: 1%;
+	margin-top: 3em;
+	padding: 1em;
 }
 
 p a {
