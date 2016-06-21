@@ -1,17 +1,26 @@
 <html>
 <title>Phoenix Camp NYC</title>
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/tabs.css">
-  <link rel="stylesheet" type="text/css" href="css/speakers.css">
+<!--  Prod Styles -->
+  <link rel="stylesheet" type="text/css" href="http://opencamps.org/css/camps-styles.css">
+  <link rel="stylesheet" type="text/css" href="http://opencamps.org/css/sessions.css">
+  <link rel="stylesheet" type="text/css" href="http://opencamps.org/css/conferences-embed.css">
+  <link rel="stylesheet" type="text/css" href="http://opencamps.org/css/conferences-colors.css">
 
+<!--  Dev Styles
+  <link rel="stylesheet" type="text/css" href="../OpenCamps/css/camps-styles.css">
+  <link rel="stylesheet" type="text/css" href="../OpenCamps/css/sessions.css">
+  <link rel="stylesheet" type="text/css" href="../OpenCamps/css/conferences-embed.css">
+  <link rel="stylesheet" type="text/css" href="../OpenCamps/css/conferences-colors.css">
+-->
+  <link rel="stylesheet" type="text/css" href="css/camp-styles.css">
+  <link rel="stylesheet" type="text/css" href="css/tabs.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src='https://js.tito.io/v1' async></script>
   <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
 </head>
 
-<body>
+<body class="conference phoenix">
 
   <div class="tabs">
     <a href="http://erlang.camp">
@@ -50,8 +59,7 @@
   </div>
  
 
-  <div class="page">
-
+  <div id="intro" class="container intro">
     <div>
       <img src="images/logo.png" id="logo">
     </div>
@@ -60,230 +68,58 @@
     <p class="venue">@ United Nations</p>
   </div>
 
-		<div class="row white">
+	<div class="container light">
 			<div class="row inner">
         <p class="updates">Phoenix Camp NYC is a community-run conference focused on the open source Phoenix Framework</p>
         <p class="updates">The conference will involve a mix of trainings (Fri), sessions/keynotes (Sat/Sun), and contribution sprints (Sun)</p>
 <!--    <p class="updates strong">Please send us an email at <a href="mailto:info@phoenix.camp">info@phoenix.camp</a> if you have any questions or want to get involved.</p> -->
-        <p class="updates"><strong><a href="http://goo.gl/forms/yg5pLJ5lz3">Session can be proposed here until Jun 15</a></strong></p>
+  			<p class="updates"><a href="http://goo.gl/forms/yg5pLJ5lz3" class="button" target="_blank">Propose Your Session (Until Jun 30)</a></h4>
 			</div>
 		</div>
 
+  <div class="divider"></div>
 
+	<div id="sessions" class="container sessions"></div>
 
-
-
-		<div class="row speakers">
-			<div class="row inner">
-
-        <h2>Speakers & Participants</h2>
-
-				<div class="speaker phoenix">
-  				<div class="photo">
-            <img src="images/speaker-bmarx.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Ben Marx</p>
-            <p class="org">Bleacher Report</p>
-            <p class="role">Lead Engineer</p>
-            <div class="links">
-              <a href="https://twitter.com/bgmarx" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/bgmarx" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/bgmarx" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-				</div>
-
-				<div class="speaker phoenix">
-  				<div class="photo">
-            <img src="images/speaker-bgrayson.png">  
-          </div>
-          <div class="details">
-            <p class="name">Bobby Grayson</p>
-            <p class="org">CometaWorks</p>
-            <p class="role">Software Engineer - Backend, Systems, API, ETL</p>
-            <div class="links">
-              <a href="http://twitter.com/yburyug" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="http://github.com/ybur-yug" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/robert-grayson-92506872" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-				</div>
-
-				<div class="speaker phoenix">
-  				<div class="photo">
-            <img src="images/speaker-bcardarella.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Brian Cardarella</p>
-            <p class="org">Dockyard</p>
-            <p class="role">Founder, CEO</p>
-            <div class="links">
-              <a href="https://twitter.com/bcardarella" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/bcardarella" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/briancardarella" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-				</div>
-
-
-
-				<div class="speaker elixir">
-  				<div class="photo">
-            <img src="images/speaker-eentin.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Eric Entin</p>
-            <p class="org">FanDuel</p>
-            <p class="role">Principal Software Engineer</p>
-            <div class="links">
-              <a href="https://twitter.com/antipax" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/antipax" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/ericentin" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-				</div>
-
-
-
-
-				<div class="speaker nerves">
-					<div class="photo">
-						<img src="images/speaker-fhunleth.jpg">  
-					</div>
-					<div class="details">
-						<p class="name">Frank Hunleth</p>
-						<p class="org">Nerves Project Core Team Member</p>
-						<p class="org">Troodon Software LLC</p>
-						<p class="role">Principal</p>
-						<div class="links">
-							<a href="https://twitter.com/fhunleth" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-							<a href="https://github.com/fhunleth" class="github"><i class="fa fa-github"></i></a>
-							<a href="https://www.linkedin.com/in/justinschneck" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-							<a href="http://nerves-project.org/" class="linkedin" target="_blank"><i class="fa fa-globe"></i></a>
-							<a href="http://www.troodon-software.com/" class="linkedin" target="_blank"><i class="fa fa-globe"></i></a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="speaker phoenix">
-  				<div class="photo">
-            <img src="images/speaker-grennie.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Gary Rennie</p>
-            <p class="org">Phoenix Core Team Member</p>
-            <p class="org">VoiceLayer</p>
-            <p class="role">Elixir Developer</p>
-            <div class="links">
-              <a href="https://twitter.com/thegazler" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/Gazler" class="github"><i class="fa fa-github"></i></a>
-              <a href="http://blog.gazler.com/" class="linkedin" target="_blank"><i class="fa fa-globe"></i></a>
-              <a href="http://stackoverflow.com/users/219743/Gazler" class="linkedin" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-            </div>
-          </div>
-				</div>
-				
-				<div class="speaker elixir">
-  				<div class="photo">
-            <img src="images/speaker-jwinn.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Johnny Winn</p>
-            <p class="org">Elixir Fountain Host/Founder</p>
-            <p class="org">Wellmatch</p>
-            <p class="role">Sr Software Engineer</p>
-            <div class="links">
-              <a href="https://twitter.com/johnny_rugger" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/nurugger07" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/johnnywinn5" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-              <a href="https://soundcloud.com/elixirfountain" class="linkedin" target="_blank"><i class="fa fa-globe"></i></a>
-            </div>
-          </div>
-				</div>
-
-				<div class="speaker elixir">
-  				<div class="photo">
-            <img src="images/speaker-jadams.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Josh Adams</p>
-            <p class="org">DailyDrip</p>
-            <p class="role">CTO & Co-Founder</p>
-            <div class="links">
-              <a href="https://twitter.com/knewter" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/knewter" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/knewter" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-              <a href="https://www.dailydrip.com/" class="linkedin" target="_blank"><i class="fa fa-globe"></i></a>
-            </div>
-          </div>
-				</div>
-
-				<div class="speaker nerves">
-  				<div class="photo">
-            <img src="images/speaker-jschneck.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Justin Schneck</p>
-            <p class="org">Nerves Project Core Team</p>
-            <p class="org">Metasphere</p>
-            <p class="role">Founder</p>
-            <div class="links">
-              <a href="https://twitter.com/mobileoverlord" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/mobileoverlord" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/justinschneck" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-              <a href="http://nerves-project.org/" class="linkedin" target="_blank"><i class="fa fa-globe"></i></a>
-            </div>
-          </div>
-				</div>
-
-				<div class="speaker erlang">
-  				<div class="photo">
-            <img src="images/speaker-lpgauthier.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Louis-Philippe Gauthier</p>
-            <p class="org">AdGear</p>
-            <p class="role">Director of Platform Engineering</p>
-            <div class="links">
-              <a href="https://twitter.com/lpgauth" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/lpgauth" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/lpgauth" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-				</div>
-								
-				<div class="speaker elixir">
-  				<div class="photo">
-            <img src="images/speaker-scohen.jpg">  
-          </div>
-          <div class="details">
-            <p class="name">Steve Cohen</p>
-            <p class="org">Pinterest</p>
-            <p class="role">Elixir Software Engineer</p>
-            <div class="links">
-              <a href="https://twitter.com/icecreamcohen" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/scohen" class="github"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/steve-cohen-91b909" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-				</div>
-				
-		</div>
-
-
-    
-
+  <div id="tickets" class="container color">
 		<div id="blocks">
 			<div id="register" class="block">
 				<h4 class="block-title">Tickets</h4>    
 				<tito-widget event="phoenix-camp-nyc/phoenix-camp-nyc-2016"></tito-widget>
 				<p>You don't need to make an additional ticket donation for Phoenix Camp NYC if you've already purchased a ticket for another <a href="http://opencamps.org" target="_blank">Open Camps</a> event on the same day (other than WordCamp NYC or PyGotham which do require a separate ticket).</p>
 			</div>
-		</div>
-		
-    <p class="coc"><a href="http://opencamps.org/code-of-conduct.html" target="_blank">Our Code of Conduct</a></p>
-  </div>
+		</div>		
+	</div>
+
+	<div id-"venue" class="container light">
+	  <div id="map">
+				<iframe id="map_contact" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.5977546776085!2d-73.97020314925929!3d40.74887577922652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591ce0874d11%3A0xc5fae28bdd3df635!2sUnited+Nations+Headquarters!5e0!3m2!1sen!2sus!4v1461024642474" class="scrolloff">
+						<a href="https://www.google.com/maps/place/United+Nations+Headquarters/@40.7488758,-73.9702031,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2591ce0874d11:0xc5fae28bdd3df635">	
+				</iframe>
+			</div>
+	</div>
+
+  <p class="coc"><a href="http://opencamps.org/code-of-conduct.html" target="_blank">Our Code of Conduct</a></p>
+ 
+  <div id="opencamps-embed"></div>
+
+<!-- JS Imports -->
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/getSessionsFilter.js"></script>
+<!-- Prod JS Imports -->
+  <script src="http://opencamps.org/js/getSessions.js"></script> 
+  <script src="http://opencamps.org/js/listSessions.js"></script> 
+  <script src="http://opencamps.org/js/getConferencesBlock.js"></script> 
+  <script src="http://opencamps.org/js/listConferences.js"></script> 
+  <script src="http://opencamps.org/js/oc.js"></script>
+
+<!-- Dev JS Imports 
+  <script src="../OpenCamps/js/getSessions.js"></script>
+  <script src="../OpenCamps/js/listSessions.js"></script>
+  <script src="../OpenCamps/js/getConferencesBlock.js"></script>
+  <script src="../OpenCamps/js/listConferences.js"></script>  
+  <script src="../OpenCamps/js/oc.js"></script>
+--
 
 <script type="text/javascript">
     adroll_adv_id = "7CQYTR2PIRBURFB4SWEP2T";

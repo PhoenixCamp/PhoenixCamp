@@ -4,7 +4,7 @@
 
 .speakers h2 {
 	font-weight: bold;
-	color: white;
+	color: green;
 	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .speaker .links a {
-	color: white;
+	color: green;
   padding-right: .25em;
   padding-left: .25em;
 }
