@@ -5,10 +5,54 @@
 }
 
 #keynote {
-	max-height: 300px;
+  vertical-align: top;
 }
 
 #keynote img {
-	width: 150px;
+	width: 180px;
 	height: auto;
 }
+
+#keynotes .details p,
+#keynotes .details a {
+	width: 300px;
+	text-align: left;
+	font-size: .8rem;
+}
+
+#keynotes .links {
+	padding-top: .5em;
+	text-align: left;
+}
+
+#keynotes .photo,
+#keynotes .details {
+	display: inline-block;
+	vertical-align: top;
+}  
+
+#keynotes h3 {
+	font: 1.3rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 0;
+}
+
+#keynotes .details {
+	width: 300px;
+}  
+
+#keynotes .links .link {
+	display: inline-block;
+	margin-right: .1rem;
+	margin-left: .1rem;
+}
+
+
+
+
+.session.Keynote {
+	_clear: both;
+	_display: block;
+}
+
