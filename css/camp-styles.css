@@ -56,3 +56,14 @@
 	_display: block;
 }
 
+
+
+
+.session {
+	display: block;
+}
+
+.scheduling .slot,
+.session .scheduling .date {
+	display: block!important;
+}
